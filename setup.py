@@ -12,7 +12,7 @@ if sys.version_info < (2,7):
 setup(name='twitter',
       version=version,
       description="An API and command-line toolset for Twitter (twitter.com)",
-      long_description=open("./README", "r").read(),
+      long_description=open("./README.rst", "r").read(),
       # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
           "Development Status :: 5 - Production/Stable",
